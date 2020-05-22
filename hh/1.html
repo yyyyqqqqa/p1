@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/set_root.js"></script>
+    <style>
+        body {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        .top {
+            height: 100px;
+            background-color: #37AB40;
+            position: relative;
+        }
+
+        .content {
+            background-color: #EFEFEF;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100px;
+            bottom: 100px;
+        }
+
+        .foot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background-color: #fff;
+        }
+
+        .top .logo{
+            width: 178px;
+            height: 71px;
+            display: block;
+            margin: 14px auto;
+        }
+        .top .search {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background:url("images/icons.png")  no-repeat 0px 3px;
+            right: 23px;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top clearfix">
+        <a class="logo" href="#"><img src="images/logo.png"></a>
+        <a class="search" href="#"></a>
+
+    </div>
+
+    <div class="content">
+
+    </div>
+
+    <div class="foot">
+
+    </div>
+
+</body>
+</html>
